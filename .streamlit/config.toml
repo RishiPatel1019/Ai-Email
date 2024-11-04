@@ -1,0 +1,18 @@
+# This is a sample config.toml file
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 1024  # in MB
+
+[theme]
+primaryColor = "#F39C12"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F0F0"
+textColor = "#000000"
+font = "sans serif"
+
+[logger]
+level = "info"  # options: "debug", "info", "warning", "error", "critical"
