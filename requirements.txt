@@ -2,5 +2,5 @@ streamlit
 pandas
 numpy
 matplotlib
-langchain-community
+langchain-community ==  1.21.3
 langchain_community.document_loaders 
